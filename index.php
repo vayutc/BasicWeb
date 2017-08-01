@@ -3,7 +3,12 @@
 <html>
 	<head>
 		<?php include "headerPage.php" ?>
-		<!-- <META HTTP-EQUIV="refresh" CONTENT="seconds;URL=the-other-url">		 -->		
+		<!-- <META HTTP-EQUIV="refresh" CONTENT="seconds;URL=the-other-url">		 -->	
+		<style type="text/css">
+		.bgimg {
+		    background-image: url('<?php echo $generalPath?>Web-background.png');
+		}
+		</style>	
 	</head>
 	<body>
 
@@ -13,12 +18,25 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
+						<div class="bgimg" s>
 							<!-- Header -->
 							<?php include "header.php";?>
 							<!-- Data Page -->
 							<br /> 
-														
+							<div align="center" tyle="opacity: 1;">
+							
+							<br>
+							<img height="45%" width="45%" 
+								src="<?php echo $generalPath?>Web-programing.png">
+							<img height="45%" width="45%"
+								src="<?php echo $generalPath?>Web-example.png">
+							<br>
+							
+							<img height="55%" width="55%" 
+								src="<?php echo $generalPath?>Web-cycle.png">
+							</div>							
 							<!-- End Data Page -->
+						</div>
 						</div>
 					</div>
 				<!-- End Main -->
